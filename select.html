@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Review</title>
+    <!--Font-->
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://kit.fontawesome.com/a8759ce625.js" crossorigin="anonymous"></script>
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <!--CSS-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--Scripts-->
+    <script src="js/custom.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="first">Write a Review</h1>
+      <p class="first">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="pricing-section">
+      <div class="select-section">
+        <form action="select.php" method="POST">
+          <h5>Tell us what you think</h5>
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            style="width: 50%"
+          />
+          <br />
+          <div class="star-widget">
+          <input
+            type="radio" name="rate" id = "rate-1">
+            <label for="rate-1" class="fas fa-star"></label>
+            <input
+            type="radio" name="rate" id = "rate-2">
+            <label for="rate-2" class="fas fa-star"></label>
+            <input
+            type="radio" name="rate" id = "rate-3">
+            <label for="rate-3" class="fas fa-star"></label>
+            <input
+            type="radio" name="rate" id = "rate-4">
+            <label for="rate-4" class="fas fa-star"></label>
+            <input
+            type="radio" name="rate" id = "rate-5">
+            <label for="rate-5" class="fas fa-star"></label>
+            </div>
+            <br><br><br>
+        <div><form action="#">
+
+              <div class="textarea" >
+                <textarea cols="50" name = "review"></textarea>
+              </div>
+          
+          <br />
+          <input class="button-primary" type="submit" value="Post your review" />
+        </form></div>
+      </div>
+    </div>
+  </body>
+</html>
